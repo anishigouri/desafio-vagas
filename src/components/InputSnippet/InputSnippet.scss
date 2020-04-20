@@ -1,0 +1,49 @@
+.InputSnippet {
+  margin-top: 32px;
+  
+  .counter {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+
+    svg {
+      fill: #2f3676;
+      cursor: pointer;
+      
+      &:hover {
+        fill: #191847;
+      }
+    }
+    
+    &.disabled {
+      svg {
+        fill: #C5CFD6;
+        cursor: default;
+      }
+    }
+
+    svg {
+      &.disabled {
+        fill: #C5CFD6;
+        cursor: default;
+      }
+    }
+  
+    input {
+      background: #dde3e9;
+      border: 1px solid #2f3676;
+      border-radius: 7px;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 0 8px;
+      width: 60px;
+      height: 40px;
+      text-align: center;
+
+      &.error {
+        background-color: #F59393;
+        border: 1px solid #F3413E;
+      }
+    }
+  } 
+}

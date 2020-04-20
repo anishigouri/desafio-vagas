@@ -1,0 +1,41 @@
+
+.footer {
+  padding: 32px;
+  background: #dde3e9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  label {
+    color: #49C67D;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  button {
+    appearance: none;
+    background: #2f3676;
+    border: 2px solid #2f3676;
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 8px 32px;
+    cursor: pointer;
+    outline: none;
+    
+    &.disabled {
+      background: #C5CFD6 !important;
+      border: 2px solid #071723;
+      color: #071723;
+      cursor: default;
+    }
+    
+    &focus, &:hover {
+      background: #191847;
+    }
+  }
+
+}

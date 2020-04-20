@@ -1,0 +1,20 @@
+.InputTextArea {
+  
+  .label {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+
+  textarea {
+    background: #dde3e9;
+    border: 1px solid #2f3676;
+    border-radius: 8px;
+    color: #071723;
+    height: 140px;
+    padding: 16px;
+    resize: none;
+    width: 100%;
+    font-size: 14px;
+  }
+}
